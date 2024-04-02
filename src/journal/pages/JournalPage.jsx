@@ -4,5 +4,3 @@ export const JournalPage = () => {
     <div>JournalPage</div>
   )
 }
-
-export default JournalPage

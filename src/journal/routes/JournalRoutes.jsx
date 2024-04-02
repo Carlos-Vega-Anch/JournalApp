@@ -2,7 +2,7 @@ import React from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import {JournalPage} from '../pages/JournalPage'
 
-const JournalRoutes = () => {
+export const JournalRoutes = () => {
   return (
     <>
     <Routes>
@@ -14,4 +14,3 @@ const JournalRoutes = () => {
   )
 }
 
-export default JournalRoutes
